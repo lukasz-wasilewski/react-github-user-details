@@ -1,0 +1,22 @@
+.user-data-container{
+  display: flex;
+}
+
+.user-data-item {
+  padding: 10px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-data-item.start {
+  align-items: flex-end;
+}
+
+.user-data-item.end {
+  align-items: flex-start;
+}
+
+.connected-user{
+  display: flex;
+}

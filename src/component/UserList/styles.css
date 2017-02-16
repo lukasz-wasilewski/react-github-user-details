@@ -1,0 +1,15 @@
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  list-style: none;
+  flex: 1;
+}
+
+.users-list>li {
+  margin: 2px 5px;
+}
+
+.users-list-title{
+  width: 100%;
+}

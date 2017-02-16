@@ -1,0 +1,8 @@
+
+export const FETCH_USER_DATA_SUCCEED = 'FETCH_USER_DATA_SUCCEED';
+export const SET_USER_NAME = 'SET_USER_NAME';
+
+export default [
+  FETCH_USER_DATA_SUCCEED,
+  SET_USER_NAME,
+];
