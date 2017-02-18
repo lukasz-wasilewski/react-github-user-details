@@ -4,6 +4,7 @@ import _ from 'lodash';
 import DebounceInput from '../../component/DebounceInput';
 import { getFollowers, getFollowing, getUserInfo } from './thunk';
 import { setUserName } from './actions';
+import getUser from './selector';
 import './styles.css';
 import UserData from '../../component/UserData';
 
@@ -47,13 +48,6 @@ Home.propTypes = {
   userData: React.PropTypes.shape({}),
   users: React.PropTypes.shape({}),
 };
-
-function getUser(users, username) {
-  if (_.has(users, username)) {
-    return users[username];
-  }
-  return {};
-}
 
 function mapStateToProps(state) {
   return {
